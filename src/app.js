@@ -10,8 +10,8 @@ const app = express()
 
 app.use(cors({
     origin: [
-        "http://localhost:9002",
-        "https://your-frontend-domain.com"
+        
+        "https://autotune-frontend-7nyqmpodq-bhanutejanallamothus-projects.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"]
